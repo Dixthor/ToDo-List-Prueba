@@ -1,0 +1,49 @@
+*{
+    font-family: "Indie Flower", cursive;
+    font-size: 1.5rem;
+    background-color: rgb(252, 244, 204);
+}
+
+.insertar-tarea{
+    width: 100px;
+}
+
+.lista {
+    border: 0.5px solid rgb(230, 228, 228) ;
+    border-radius: 7px;
+    background-color: rgb(252, 244, 204);
+
+}
+
+.tareas{
+    border-bottom: 0.5px solid rgb(223, 223, 223);
+}
+
+ol{
+    list-style: none;
+}
+
+
+
+.text-center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input{
+    border: none;
+    background-color: rgb(252, 244, 204);
+}
+input:focus {
+  outline:none}
+
+.boton{
+    border: none;
+    background-color: rgb(252, 244, 204);
+    color: rgb(252, 244, 204);
+}
+
+.tarea-item-wrapper:hover .boton {
+  
+  color: red; 
+}
